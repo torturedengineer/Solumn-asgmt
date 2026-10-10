@@ -1,0 +1,28 @@
+
+# Secrets: never commit endpoint credentials
+.env
+.env.*
+!.env.example
+
+# Assignment PDF
+Solumn_Foundations_Task_Set_A.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated Harbor jobs and local run output
+jobs/
+.harbor/
+*.log
+
+# Local scratch files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
